@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+  <rect width="760" height="360" fill="#fafbfc"/>
+  <text x="380" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">常用表达式曲线形状（手写示意）</text>
+
+  <!-- panel 1: sin -->
+  <text x="130" y="66" text-anchor="middle" font-size="14" font-weight="bold" fill="#1d4fb0">Math.sin(time*m)*n</text>
+  <line x1="40" y1="180" x2="240" y2="180" stroke="#999"/>
+  <line x1="40" y1="100" x2="40" y2="260" stroke="#999"/>
+  <path d="M40,180 Q65,120 90,180 T140,180 T190,180 T240,180" fill="none" stroke="#2f6fed" stroke-width="2.5"/>
+  <text x="130" y="285" text-anchor="middle" font-size="12" fill="#555">规律摆动（呼吸/浮动）</text>
+
+  <!-- panel 2: wiggle -->
+  <text x="380" y="66" text-anchor="middle" font-size="14" font-weight="bold" fill="#1d4fb0">wiggle(m, n)</text>
+  <line x1="290" y1="180" x2="490" y2="180" stroke="#999"/>
+  <line x1="290" y1="100" x2="290" y2="260" stroke="#999"/>
+  <path d="M290,180 L305,150 L318,205 L333,140 L348,195 L363,160 L378,215 L393,155 L408,200 L423,145 L438,190 L453,165 L468,210 L483,170 L490,180" fill="none" stroke="#d9534f" stroke-width="2.5"/>
+  <text x="390" y="285" text-anchor="middle" font-size="12" fill="#555">随机抖动（频率 m × 振幅 n）</text>
+
+  <!-- panel 3: time linear -->
+  <text x="620" y="66" text-anchor="middle" font-size="14" font-weight="bold" fill="#1d4fb0">time*n</text>
+  <line x1="530" y1="180" x2="720" y2="180" stroke="#999"/>
+  <line x1="530" y1="100" x2="530" y2="260" stroke="#999"/>
+  <line x1="530" y1="250" x2="710" y2="110" stroke="#2ea860" stroke-width="2.5"/>
+  <text x="625" y="285" text-anchor="middle" font-size="12" fill="#555">匀速线性（旋转/演变）</text>
+
+  <!-- loop note -->
+  <rect x="60" y="315" width="640" height="34" rx="8" fill="#f2f3f5" stroke="#999"/>
+  <text x="380" y="337" text-anchor="middle" font-size="13" fill="#444">loopOut("cycle")：把已有关键帧首尾相接循环；弹性表达式：一般加在位置上做落地回弹</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="900" height="560" fill="#faf8f3"/>
+  <text x="450" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">After Effects 2026 主界面面板布局（示意）</text>
+
+  <!-- 菜单栏 -->
+  <rect x="30" y="50" width="840" height="28" fill="#e8e2d5" stroke="#8a7f66"/>
+  <text x="45" y="69" font-size="13" fill="#333">菜单栏：文件 / 编辑 / 合成 / 图层 / 效果 / 动画 / 视图 / 窗口 / 帮助</text>
+
+  <!-- 工具栏 -->
+  <rect x="30" y="86" width="110" height="380" fill="#f0ede4" stroke="#8a7f66"/>
+  <text x="85" y="106" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">工具栏</text>
+  <text x="85" y="128" text-anchor="middle" font-size="11" fill="#555">选取/手形</text>
+  <text x="85" y="148" text-anchor="middle" font-size="11" fill="#555">锚点工具 Y</text>
+  <text x="85" y="168" text-anchor="middle" font-size="11" fill="#555">钢笔 G</text>
+  <text x="85" y="188" text-anchor="middle" font-size="11" fill="#555">文字 T</text>
+  <text x="85" y="208" text-anchor="middle" font-size="11" fill="#555">形状/蒙版</text>
+  <text x="85" y="228" text-anchor="middle" font-size="11" fill="#555">摄像机工具</text>
+  <text x="85" y="248" text-anchor="middle" font-size="11" fill="#555">Roto 笔刷</text>
+
+  <!-- 项目面板 -->
+  <rect x="150" y="86" width="230" height="200" fill="#ffffff" stroke="#8a7f66"/>
+  <text x="160" y="106" font-size="12" font-weight="bold" fill="#333">项目面板（素材管理）</text>
+  <text x="160" y="128" font-size="11" fill="#666">· 双击空白处导入素材</text>
+  <text x="160" y="148" font-size="11" fill="#666">· 新建文件夹整理</text>
+  <text x="160" y="168" font-size="11" fill="#666">· 拖素材到合成=新建合成</text>
+  <text x="160" y="188" font-size="11" fill="#666">· 解释素材（右键）</text>
+
+  <!-- 效果控件/音频 -->
+  <rect x="150" y="296" width="230" height="170" fill="#ffffff" stroke="#8a7f66"/>
+  <text x="160" y="316" font-size="12" font-weight="bold" fill="#333">效果控件 / 音频（辅助面板）</text>
+  <text x="160" y="338" font-size="11" fill="#666">窗口 → 效果控件</text>
+  <text x="160" y="358" font-size="11" fill="#666">面板乱了：窗口 → 工作区 →</text>
+  <text x="160" y="376" font-size="11" fill="#666">  重置「标准」即可归位</text>
+
+  <!-- 合成视图 -->
+  <rect x="390" y="86" width="480" height="260" fill="#ffffff" stroke="#8a7f66"/>
+  <text x="400" y="106" font-size="12" font-weight="bold" fill="#333">合成视图面板（预览画面）</text>
+  <rect x="480" y="130" width="300" height="180" fill="#d8d8d8" stroke="#999" stroke-dasharray="5,4"/>
+  <text x="630" y="225" text-anchor="middle" font-size="12" fill="#777">透明网格区（看 Alpha 通道）</text>
+  <text x="400" y="330" font-size="11" fill="#666">标签页可切换：合成视图 / 素材面板 / 图层面板</text>
+
+  <!-- 时间轴 -->
+  <rect x="390" y="356" width="480" height="110" fill="#ffffff" stroke="#8a7f66"/>
+  <text x="400" y="376" font-size="12" font-weight="bold" fill="#333">时间轴面板（图层 + 时间线）</text>
+  <text x="400" y="398" font-size="11" fill="#666">· 图层列表（隐藏/锁定/塌陷/3D 开关列）</text>
+  <text x="400" y="418" font-size="11" fill="#666">· 时间标尺、工作区条、时间指示器（蓝色播放头）</text>
+  <text x="400" y="438" font-size="11" fill="#666">· 小键盘 0 键：内存预览（RAM Preview）</text>
+
+  <!-- 底部小面板 -->
+  <rect x="30" y="476" width="840" height="60" fill="#f0ede4" stroke="#8a7f66"/>
+  <text x="45" y="498" font-size="12" fill="#333">底部状态/小面板：渲染队列、音频、信息、注释、Premiere 同步等（可在「窗口」菜单勾选显示）</text>
+  <text x="45" y="520" font-size="11" fill="#8a6d3b">口诀：面板找不到 → 窗口菜单；布局拉坏 → 窗口 → 工作区 → 重置保存的布局。</text>
+</svg>

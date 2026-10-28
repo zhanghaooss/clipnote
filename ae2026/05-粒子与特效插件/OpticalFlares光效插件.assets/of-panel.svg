@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="480" viewBox="0 0 860 480" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+  <rect width="860" height="480" fill="#fafbfc"/>
+  <text x="430" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Optical Flares 面板结构（手写笔记还原）</text>
+
+  <!-- left: effect controls -->
+  <rect x="30" y="60" width="250" height="380" rx="8" fill="#fff" stroke="#2f6fed" stroke-width="1.5"/>
+  <text x="155" y="85" text-anchor="middle" font-size="14" font-weight="bold" fill="#1d4fb0">效果控件面板（外层）</text>
+  <g font-size="12.5" fill="#333">
+    <text x="48" y="115">▸ 位置 Position K帧</text>
+    <text x="48" y="140">▸ 密度 / 大小 / 旋转偏移</text>
+    <text x="48" y="165">▸ 演变 Evolution（K帧/表达式）</text>
+    <text x="48" y="190">▸ 位置模式（来源类型）：</text>
+    <text x="62" y="212">2D / 3D / 跟踪灯光 / 遮罩 / 亮度</text>
+    <text x="48" y="240">▸ 遮挡物（前景层）</text>
+    <text x="48" y="262">▸ 门控 Gating：平滑/锐利，数值&gt;0</text>
+    <rect x="48" y="290" width="160" height="34" rx="6" fill="#2f6fed"/>
+    <text x="128" y="312" text-anchor="middle" font-size="13" fill="#fff">选项 Options… (Alt+空格+X)</text>
+  </g>
+  <rect x="48" y="345" width="214" height="80" rx="6" fill="#e9f7ee" stroke="#2ea860"/>
+  <text x="155" y="368" text-anchor="middle" font-size="12.5" fill="#1e7a44">加光后两步：</text>
+  <text x="155" y="388" text-anchor="middle" font-size="12.5" fill="#1e7a44">① 图层混合模式改"屏幕"</text>
+  <text x="155" y="408" text-anchor="middle" font-size="12.5" fill="#1e7a44">② 加曲线提对比=通透半透明</text>
+
+  <!-- right: options window -->
+  <rect x="320" y="60" width="510" height="380" rx="8" fill="#fff" stroke="#888" stroke-width="1.5"/>
+  <text x="575" y="85" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">内置 Options 窗口（左中右三栏）</text>
+  <g font-size="12.5" fill="#333">
+    <rect x="340" y="105" width="150" height="300" rx="6" fill="#f2f3f5"/>
+    <text x="415" y="128" text-anchor="middle" font-weight="bold">堆栈 Stack</text>
+    <text x="350" y="155">· 下拉=独立显示/隐藏</text>
+    <text x="350" y="178">· 元素拆解，每组可调</text>
+    <text x="350" y="198">  亮度/大小/像素值</text>
+    <text x="350" y="221">· 叠加=加多个光效</text>
+
+    <rect x="505" y="105" width="150" height="300" rx="6" fill="#f2f3f5"/>
+    <text x="580" y="128" text-anchor="middle" font-weight="bold">浏览器 Browser</text>
+    <text x="515" y="155">· 光学对象预设库</text>
+    <text x="515" y="178">· 清除所有 / 自定义添加</text>
+    <text x="515" y="198">· 可加多个，波浪预览</text>
+
+    <rect x="670" y="105" width="145" height="300" rx="6" fill="#f2f3f5"/>
+    <text x="742" y="128" text-anchor="middle" font-weight="bold">编辑器/自定义图层</text>
+    <text x="680" y="155">· 全局参数+纹理图片</text>
+    <text x="680" y="178">· 动态散发光区域</text>
+    <text x="680" y="201">· 自定义图层：改对象纹理</text>
+    <text x="680" y="224">· 背景图层预览</text>
+  </g>
+  <rect x="670" y="360" width="145" height="34" rx="6" fill="#2ea860"/>
+  <text x="742" y="382" text-anchor="middle" font-size="13" fill="#fff">OK 保存</text>
+</svg>

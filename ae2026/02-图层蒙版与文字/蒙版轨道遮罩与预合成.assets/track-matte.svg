@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="760" height="430" fill="#faf8f3"/>
+  <text x="380" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">轨道遮罩 TrkMat：上形下图（时间轴堆叠）</text>
+
+  <!-- 时间轴三行 -->
+  <text x="60" y="60" font-size="13" font-weight="bold" fill="#333">时间轴图层顺序（上面的图层当“模板”，下面的被镂空）：</text>
+
+  <!-- 上层：形状/黑白图 -->
+  <rect x="60" y="80" width="640" height="56" fill="#fff" stroke="#8a7f66"/>
+  <rect x="70" y="92" width="30" height="30" fill="#333"/>
+  <text x="115" y="105" font-size="13" font-weight="bold" fill="#333">顶层：形状图层 / 黑白图（“形状”）</text>
+  <text x="115" y="125" font-size="12" fill="#666">决定「下面这层哪里显示、哪里透明」；设好后这层小眼睛可关掉</text>
+
+  <!-- 中层：被遮罩 -->
+  <rect x="60" y="146" width="640" height="56" fill="#eaf3ea" stroke="#7a9a7a"/>
+  <text x="75" y="170" font-size="13" font-weight="bold" fill="#2d5a2d">中层：风景视频 / 纹理图（“内容”）</text>
+  <text x="75" y="190" font-size="12" fill="#2d5a2d">TrkMat 列选：Alpha 遮罩（形状是透明通道图） 或 亮度遮罩（形状是黑白图）</text>
+
+  <!-- 底层 -->
+  <rect x="60" y="212" width="640" height="46" fill="#fff" stroke="#8a7f66"/>
+  <text x="75" y="240" font-size="12" fill="#666">底层：背景（自由放，不受遮罩影响）</text>
+
+  <rect x="60" y="280" width="640" height="130" fill="#f5f2ea" stroke="#8a7f66"/>
+  <text x="75" y="305" font-size="13" fill="#333">口诀：</text>
+  <text x="75" y="328" font-size="13" fill="#333">· 「上形下图」——永远是**上面**那层当模板，**下面**那层被镂空。</text>
+  <text x="75" y="351" font-size="13" fill="#333">· 上层是黑白图 → 选「亮度遮罩」（去黑留白：黑=透、白=显、灰=半透）。</text>
+  <text x="75" y="374" font-size="13" fill="#333">· 上层是带透明通道的图（如矢量 logo）→ 选「Alpha 遮罩」。</text>
+  <text x="75" y="397" font-size="13" fill="#c0392b">· 拿不准时：合成视图点开「透明网格」按钮，棋盘格出现 = 真透明。</text>
+</svg>

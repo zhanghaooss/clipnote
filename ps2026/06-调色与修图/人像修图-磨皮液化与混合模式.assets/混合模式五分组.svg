@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+  <rect width="720" height="380" fill="#fdfdf8"/>
+  <text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#333">PS 图层混合模式 · 五大组（从上到下）</text>
+
+  <!-- five groups -->
+  <g font-size="14">
+    <rect x="40" y="60" width="120" height="52" rx="8" fill="#d9c8c0" stroke="#999"/>
+    <text x="100" y="92" text-anchor="middle" fill="#333" font-weight="bold">变暗组</text>
+    <text x="175" y="92" fill="#666">变暗 / 正片叠底 / 颜色加深 …… 越叠越深，去白留黑</text>
+
+    <rect x="40" y="122" width="120" height="52" rx="8" fill="#f5e6c8" stroke="#999"/>
+    <text x="100" y="154" text-anchor="middle" fill="#333" font-weight="bold">变亮组</text>
+    <text x="175" y="154" fill="#666">变亮 / 滤色 / 颜色减淡 …… 越叠越白，去黑留白</text>
+
+    <rect x="40" y="184" width="120" height="52" rx="8" fill="#e8dcc0" stroke="#999"/>
+    <text x="100" y="216" text-anchor="middle" fill="#333" font-weight="bold">饱和度组</text>
+    <text x="175" y="216" fill="#666">叠加 / 柔光 / 强光 / 饱和度 …… 对比与上色主力</text>
+
+    <rect x="40" y="246" width="120" height="52" rx="8" fill="#d6dcec" stroke="#999"/>
+    <text x="100" y="278" text-anchor="middle" fill="#333" font-weight="bold">差集组</text>
+    <text x="175" y="278" fill="#666">差值 / 排除 / 减去 …… 做反差、计算与高低频用</text>
+
+    <rect x="40" y="308" width="120" height="52" rx="8" fill="#d9ecd9" stroke="#999"/>
+    <text x="100" y="340" text-anchor="middle" fill="#333" font-weight="bold">颜色组</text>
+    <text x="175" y="340" fill="#666">色相 / 饱和度 / 颜色 / 明度 …… 改色不改光（上妆专用）</text>
+  </g>
+</svg>

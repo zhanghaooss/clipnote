@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="480" viewBox="0 0 820 480" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+  <rect width="820" height="480" fill="#fafbfc"/>
+  <text x="410" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Plexus 节点层级（对象窗口）</text>
+
+  <!-- three columns -->
+  <rect x="40" y="70" width="220" height="360" rx="8" fill="#e8f0ff" stroke="#2f6fed"/>
+  <text x="150" y="96" text-anchor="middle" font-size="14" font-weight="bold" fill="#1d4fb0">Add Geometry 几何体</text>
+  <g font-size="12.5" fill="#333">
+    <text x="56" y="126">· 立方体 / 球体（可 Group 分组）</text>
+    <text x="56" y="152">· Layer 图层（文字/空对象/纯色</text>
+    <text x="70" y="172">可识别；形状图层不能识别）</text>
+    <text x="56" y="198">· Paths 路径（文字层取路径）</text>
+    <text x="56" y="224">· OBJ 模型（路径/文件名禁中文）</text>
+  </g>
+
+  <rect x="300" y="70" width="220" height="360" rx="8" fill="#e9f7ee" stroke="#2ea860"/>
+  <text x="410" y="96" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e7a44">Effector 效果器</text>
+  <g font-size="12.5" fill="#333">
+    <text x="316" y="126">· Noise 噪波（幅度/细节/种子）</text>
+    <text x="316" y="152">· Spherical Field 球形场</text>
+    <text x="316" y="178">· Container 容器</text>
+    <text x="316" y="204">· Transform 变换（最后调）</text>
+    <text x="316" y="230">· Colormap 颜色贴图</text>
+    <text x="316" y="256">· Shade 阴影（需灯光）</text>
+    <text x="316" y="282">· Sound 音频驱动</text>
+  </g>
+
+  <rect x="560" y="70" width="220" height="360" rx="8" fill="#fff3d6" stroke="#e0a83a"/>
+  <text x="670" y="96" text-anchor="middle" font-size="14" font-weight="bold" fill="#8a6d00">Renderer 渲染器</text>
+  <g font-size="12.5" fill="#333">
+    <text x="576" y="126">· Point Renderer 点（大小/颜色）</text>
+    <text x="576" y="152">· Lines Renderer 线（最大距离/</text>
+    <text x="590" y="172">顶点连接数/衰减）</text>
+    <text x="576" y="198">· Triangulation 三角面</text>
+    <text x="576" y="224">· Group 连线规则：组内/组间</text>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#888" stroke-width="1.5" fill="none">
+    <line x1="260" y1="250" x2="300" y2="250"/>
+    <line x1="520" y1="250" x2="560" y2="250"/>
+  </g>
+  <text x="410" y="455" text-anchor="middle" font-size="13" fill="#555">顺序：几何体给点 → 效果器动点/变色 → 渲染器连线/成面，逐层叠加在对象窗口</text>
+</svg>

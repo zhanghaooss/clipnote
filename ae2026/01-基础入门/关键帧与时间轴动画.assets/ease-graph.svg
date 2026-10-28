@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="760" height="420" fill="#faf8f3"/>
+  <text x="380" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">F9 缓动：关键帧速度曲线对比</text>
+
+  <!-- 左：线性 -->
+  <text x="190" y="60" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">不按 F9：线性（匀速）</text>
+  <line x1="60" y1="330" x2="340" y2="330" stroke="#999"/>
+  <line x1="60" y1="90" x2="60" y2="330" stroke="#999"/>
+  <polyline points="70,320 330,110" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <rect x="64" y="314" width="12" height="12" fill="#333"/>
+  <rect x="324" y="104" width="12" height="12" fill="#333"/>
+  <text x="195" y="360" text-anchor="middle" font-size="12" fill="#666">进出都是瞬间起步/瞬间急停，机械感</text>
+
+  <!-- 右：缓动 -->
+  <text x="570" y="60" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">按 F9：缓入缓出（∩ 形）</text>
+  <line x1="440" y1="330" x2="720" y2="330" stroke="#999"/>
+  <line x1="440" y1="90" x2="440" y2="330" stroke="#999"/>
+  <path d="M450,320 C 500,320 520,110 710,110" fill="none" stroke="#2d7d32" stroke-width="3"/>
+  <rect x="444" y="314" width="12" height="12" fill="#333"/>
+  <rect x="704" y="104" width="12" height="12" fill="#333"/>
+  <text x="575" y="360" text-anchor="middle" font-size="12" fill="#666">起步慢、中间快、收尾慢，像人在动</text>
+
+  <rect x="60" y="380" width="640" height="30" fill="#f5f2ea" stroke="#8a7f66"/>
+  <text x="75" y="400" font-size="12" fill="#333">操作：选中一个或多个关键帧 → 按 F9（关键帧辅助 → 缓动）；图表编辑器里可继续拖手柄微调。</text>
+</svg>

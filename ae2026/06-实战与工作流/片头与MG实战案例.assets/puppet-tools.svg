@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="380" viewBox="0 0 760 380" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+  <rect width="760" height="380" fill="#fafbfc"/>
+  <text x="380" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">操控工具（Puppet）三件套</text>
+
+  <g font-size="13" fill="#333">
+    <rect x="50" y="70" width="200" height="110" rx="8" fill="#e8f0ff" stroke="#2f6fed"/>
+    <text x="150" y="96" text-anchor="middle" font-weight="bold" fill="#1d4fb0">操控点工具</text>
+    <text x="62" y="122">· 关节处扎点（针尖心可晃）</text>
+    <text x="62" y="144">· 网格→变形→面点 K 帧</text>
+    <text x="62" y="166">· 密度 10~15 = 平滑度</text>
+
+    <rect x="280" y="70" width="200" height="110" rx="8" fill="#e9f7ee" stroke="#2ea860"/>
+    <text x="380" y="96" text-anchor="middle" font-weight="bold" fill="#1e7a44">操控叠加工具</text>
+    <text x="292" y="122">· 叠加/切换图层顺序：置前</text>
+    <text x="292" y="144">  /置后；白色/黑色级别</text>
+    <text x="292" y="166">· 范围=影响范围</text>
+
+    <rect x="510" y="70" width="200" height="110" rx="8" fill="#fff3d6" stroke="#e0a83a"/>
+    <text x="610" y="96" text-anchor="middle" font-weight="bold" fill="#8a6d00">操控扑粉工具</text>
+    <text x="522" y="122">· 钉住不想动的区域</text>
+    <text x="522" y="144">· 引擎改 1000、网格三角形改 0</text>
+    <text x="522" y="166">· 密度高/形状规则更稳</text>
+  </g>
+
+  <rect x="60" y="220" width="640" height="130" rx="8" fill="#fff" stroke="#999"/>
+  <text x="380" y="248" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">记录动画口诀</text>
+  <text x="380" y="276" text-anchor="middle" font-size="13" fill="#444">时间指针移到某时刻 → 直接移动实心点记录该帧（开始处先 K 一帧）</text>
+  <text x="380" y="300" text-anchor="middle" font-size="13" fill="#444">不要拖 Ctrl；Ctrl 仅用于移动实心点。蒙版信息需与应用图层信息一致，必要时打预合成</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="820" height="520" fill="#faf8f3"/>
+  <text x="410" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">形状图层属性树（展开示意）</text>
+
+  <!-- 根 -->
+  <rect x="30" y="50" width="760" height="34" fill="#e8e2d5" stroke="#8a7f66"/>
+  <text x="45" y="72" font-size="13" font-weight="bold" fill="#333">形状图层（用矩形/钢笔直接画，自动生成）</text>
+
+  <!-- 内容 -->
+  <rect x="55" y="92" width="735" height="30" fill="#fff" stroke="#bbb"/>
+  <text x="70" y="112" font-size="13" fill="#333">内容 Contents（一个形状图层里可以放多个形状）</text>
+
+  <!-- 矩形1组 -->
+  <g font-size="12.5" fill="#333">
+    <rect x="80" y="130" width="710" height="28" fill="#f5f2ea" stroke="#c9b98f"/>
+    <text x="95" y="149">▸ 矩形 1（组）</text>
+    <rect x="100" y="162" width="690" height="26" fill="#fff" stroke="#ddd"/>
+    <text x="115" y="180">矩形路径：大小 / 位置 / 圆度（不同形状这里不同：多边形/椭圆/路径）</text>
+    <rect x="100" y="192" width="690" height="26" fill="#fff" stroke="#ddd"/>
+    <text x="115" y="210">描边：颜色 / 描边宽度 / 线段端点 / 线段连接 / 虚线（含 3 个数值，用“-”删段）</text>
+    <rect x="100" y="222" width="690" height="26" fill="#fff" stroke="#ddd"/>
+    <text x="115" y="240">填充：颜色 / 不透明度（一般在顶部工具栏改）</text>
+    <rect x="100" y="252" width="690" height="26" fill="#fff" stroke="#ddd"/>
+    <text x="115" y="270">变换（形状内部）：位置/大小/旋转/不透明度 —— 与图层级变换不同</text>
+  </g>
+
+  <!-- 添加器 -->
+  <rect x="80" y="288" width="710" height="30" fill="#eaf3ea" stroke="#7a9a7a"/>
+  <text x="95" y="308" font-size="13" font-weight="bold" fill="#2d5a2d">「添加」按钮（小三角）：给形状加这些动画器 ——</text>
+
+  <g font-size="12.5" fill="#2d5a2d">
+    <text x="95" y="332">· 合并路径 / 位移路径（≈蒙版扩展）/ 收缩和膨胀（拉伸）/ 圆角（尖角变圆润）</text>
+    <text x="95" y="354">· 扭转 / 摆动路径（摆动变换，可用表达式替代）/ Z 字形（锯齿）</text>
+    <text x="95" y="376">· ⭐ 中继器 Repeater：复制 N 份，设位置/缩放/旋转的递增量</text>
+    <text x="95" y="398">· ⭐ 修剪路径 Trim Paths：开始/结束/偏移 K 帧 = 描边生长动画</text>
+  </g>
+
+  <rect x="30" y="420" width="760" height="80" fill="#fdf3e7" stroke="#c98f4f"/>
+  <text x="45" y="445" font-size="13" fill="#7a4a1a">两个高频技巧：</text>
+  <text x="45" y="467" font-size="12.5" fill="#7a4a1a">① 中心点技巧：选中形状按「图层 → 变换 → 锚点居中」或双击形状，把锚点放到 (0,0) 画面中心，中继器才绕中心转。</text>
+  <text x="45" y="489" font-size="12.5" fill="#7a4a1a">② 空形状图层：新建空形状层后要手动「添加」路径/描边/填充，不常用；渐变用「渐变填充」加。</text>
+</svg>

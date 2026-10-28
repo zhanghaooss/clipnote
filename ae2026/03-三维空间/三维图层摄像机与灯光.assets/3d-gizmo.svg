@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="700" height="360" fill="#faf8f3"/>
+  <text x="350" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">3D Gizmo：三轴变换手柄（2026 新交互）</text>
+
+  <!-- 立方体 -->
+  <g transform="translate(350,190)">
+    <!-- 底面 -->
+    <polygon points="-70,30 -10,-10 90,30 30,70" fill="#dde6f0" stroke="#7a8aa0"/>
+    <!-- 正面 -->
+    <polygon points="-70,30 -70,-50 30,-90 30,-10" fill="#f0f0f0" stroke="#7a8aa0"/>
+    <!-- 侧面 -->
+    <polygon points="30,-90 90,-50 90,30 30,-10" fill="#c8d4e4" stroke="#7a8aa0"/>
+
+    <!-- X 轴红 -->
+    <line x1="0" y1="0" x2="110" y2="40" stroke="#c0392b" stroke-width="3"/>
+    <polygon points="110,40 96,36 102,52" fill="#c0392b"/>
+    <text x="120" y="55" font-size="14" font-weight="bold" fill="#c0392b">X</text>
+
+    <!-- Y 轴绿 -->
+    <line x1="0" y1="0" x2="-60" y2="-90" stroke="#2d7d32" stroke-width="3"/>
+    <polygon points="-60,-90 -48,-80 -64,-74" fill="#2d7d32"/>
+    <text x="-85" y="-95" font-size="14" font-weight="bold" fill="#2d7d32">Y</text>
+
+    <!-- Z 轴蓝 -->
+    <line x1="0" y1="0" x2="0" y2="-120" stroke="#2b5faa" stroke-width="3"/>
+    <polygon points="0,-120 -8,-106 8,-106" fill="#2b5faa"/>
+    <text x="12" y="-125" font-size="14" font-weight="bold" fill="#2b5faa">Z</text>
+  </g>
+
+  <rect x="40" y="300" width="620" height="45" fill="#eaf3ea" stroke="#7a9a7a"/>
+  <text x="55" y="320" font-size="12.5" fill="#2d5a2d">25.6 起：多选多个 3D 层后，共用一个 Gizmo 统一拖动/旋转/缩放，</text>
+  <text x="55" y="338" font-size="12.5" fill="#2d5a2d">不再是每层一个手柄。菜单：选中 3D 层后直接在合成视图拖彩色三轴。</text>
+</svg>

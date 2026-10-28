@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="620" viewBox="0 0 1080 620" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+  <rect width="1080" height="620" fill="#1e1e1e"/>
+  <text x="540" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#eee">DaVinci Resolve 调色页面布局示意</text>
+
+  <!-- top toolbar -->
+  <rect x="30" y="56" width="1020" height="36" rx="4" fill="#2d2d2d" stroke="#555"/>
+  <g font-size="13" fill="#bbb" text-anchor="middle">
+    <text x="90" y="79">媒体</text>
+    <text x="180" y="79">剪辑</text>
+    <text x="300" y="79" fill="#f5c518" font-weight="bold">调色（Color）</text>
+    <text x="390" y="79">Fairlight</text>
+    <text x="480" y="79">交付</text>
+  </g>
+
+  <!-- gallery thumbnails -->
+  <rect x="30" y="106" width="1020" height="70" rx="4" fill="#262626" stroke="#444"/>
+  <g>
+    <rect x="45" y="116" width="86" height="50" fill="#4a5a70" stroke="#f5c518" stroke-width="2"/>
+    <rect x="145" y="116" width="86" height="50" fill="#556070"/>
+    <rect x="245" y="116" width="86" height="50" fill="#5a5560"/>
+    <rect x="345" y="116" width="86" height="50" fill="#50605a"/>
+    <text x="870" y="145" fill="#888" font-size="13">片段素材缩略条（Gallery / 时间线）</text>
+  </g>
+
+  <!-- node graph left -->
+  <rect x="30" y="196" width="360" height="260" rx="4" fill="#262626" stroke="#444"/>
+  <text x="48" y="220" fill="#f5c518" font-size="14" font-weight="bold">节点图 Node Graph</text>
+  <g font-size="12" text-anchor="middle">
+    <rect x="60" y="280" width="60" height="40" fill="#1f6f43" stroke="#39d98a"/>
+    <text x="90" y="304" fill="#fff">节点1</text>
+    <rect x="180" y="280" width="60" height="40" fill="#1f6f43" stroke="#39d98a"/>
+    <text x="210" y="304" fill="#fff">节点2</text>
+    <rect x="300" y="280" width="60" height="40" fill="#1f6f43" stroke="#39d98a"/>
+    <text x="330" y="304" fill="#fff">节点3</text>
+  </g>
+  <g stroke="#39d98a" stroke-width="2">
+    <line x1="120" y1="300" x2="180" y2="300"/>
+    <line x1="240" y1="300" x2="300" y2="300"/>
+  </g>
+  <text x="48" y="380" fill="#999" font-size="12">串行节点链：一级 → 二级 → 风格</text>
+  <text x="48" y="402" fill="#999" font-size="12">Alt+S 新建串行节点 · Ctrl+P 并行节点</text>
+
+  <!-- viewer center -->
+  <rect x="410" y="196" width="400" height="260" rx="4" fill="#0d0d0d" stroke="#444"/>
+  <rect x="430" y="216" width="360" height="220" fill="#2c3e50"/>
+  <text x="610" y="330" text-anchor="middle" fill="#888" font-size="14">监视器 Viewer</text>
+
+  <!-- wheels right -->
+  <rect x="830" y="196" width="220" height="260" rx="4" fill="#262626" stroke="#444"/>
+  <text x="848" y="220" fill="#f5c518" font-size="14" font-weight="bold">色轮 Wheels</text>
+  <g fill="none" stroke="#666" stroke-width="2">
+    <circle cx="885" cy="280" r="30"/>
+    <circle cx="950" cy="280" r="30"/>
+    <circle cx="1015" cy="280" r="30"/>
+  </g>
+  <g font-size="11" fill="#bbb" text-anchor="middle">
+    <text x="885" y="326">Lift 阴影</text>
+    <text x="950" y="326">Gamma 中间调</text>
+    <text x="1015" y="326">Gain 高光</text>
+  </g>
+  <text x="848" y="380" fill="#999" font-size="12">限定器 / 窗口 / 跟踪</text>
+  <text x="848" y="402" fill="#999" font-size="12">工具栏在此排开</text>
+
+  <!-- scopes bottom -->
+  <rect x="30" y="476" width="1020" height="110" rx="4" fill="#262626" stroke="#444"/>
+  <text x="48" y="500" fill="#f5c518" font-size="14" font-weight="bold">示波器 Scopes（波形 Waveform / 矢量 Vectorscope /  Parade）</text>
+  <g stroke="#3a7" stroke-width="1">
+    <polyline points="60,560 120,520 180,545 240,515 300,555 360,525" fill="none"/>
+    <polyline points="420,560 480,530 540,550 600,520 660,545 720,525" fill="none"/>
+    <polyline points="780,560 840,535 900,555 960,525 1020,548" fill="none"/>
+  </g>
+  <text x="540" y="580" text-anchor="middle" fill="#777" font-size="12">调色不凭眼睛，一切看示波器</text>
+</svg>

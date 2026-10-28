@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+  <rect width="720" height="420" fill="#fafbfc"/>
+  <text x="360" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Keylight 抠像工作流（Screen Matte 调干净）</text>
+
+  <!-- step boxes -->
+  <g font-size="13" fill="#222">
+    <rect x="40" y="70" width="180" height="70" rx="8" fill="#e8f0ff" stroke="#2f6fed"/>
+    <text x="130" y="98" text-anchor="middle" font-weight="bold">① 吸背景色</text>
+    <text x="130" y="118" text-anchor="middle" font-size="12">Screen Colour 吸管</text>
+    <text x="130" y="133" text-anchor="middle" font-size="12">点绿幕/蓝幕背景</text>
+
+    <rect x="270" y="70" width="180" height="70" rx="8" fill="#e8f0ff" stroke="#2f6fed"/>
+    <text x="360" y="98" text-anchor="middle" font-weight="bold">② View 切 Screen Matte</text>
+    <text x="360" y="118" text-anchor="middle" font-size="12">看黑白蒙版：白=保留</text>
+    <text x="360" y="133" text-anchor="middle" font-size="12">黑=抠掉，灰=没抠净</text>
+
+    <rect x="500" y="70" width="180" height="70" rx="8" fill="#e8f0ff" stroke="#2f6fed"/>
+    <text x="590" y="98" text-anchor="middle" font-weight="bold">③ 收紧黑白</text>
+    <text x="590" y="118" text-anchor="middle" font-size="12">Clip Black / Clip White</text>
+    <text x="590" y="133" text-anchor="middle" font-size="12">让更黑、让白更白</text>
+
+    <rect x="155" y="200" width="180" height="70" rx="8" fill="#e9f7ee" stroke="#2ea860"/>
+    <text x="245" y="228" text-anchor="middle" font-weight="bold">④ Screen Softness</text>
+    <text x="245" y="248" text-anchor="middle" font-size="12">边缘柔和度，去硬边</text>
+
+    <rect x="385" y="200" width="180" height="70" rx="8" fill="#e9f7ee" stroke="#2ea860"/>
+    <text x="475" y="228" text-anchor="middle" font-weight="bold">⑤ 切回 Final Result</text>
+    <text x="475" y="248" text-anchor="middle" font-size="12">最终结果，只用透明通道</text>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#666" stroke-width="1.5" fill="none" marker-end="url(#arr)">
+    <line x1="220" y1="105" x2="270" y2="105"/>
+    <line x1="450" y1="105" x2="500" y2="105"/>
+    <path d="M590 140 C590 180, 475 175, 475 200"/>
+    <path d="M500 235 L335 235"/>
+  </g>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#666"/>
+    </marker>
+  </defs>
+
+  <rect x="60" y="320" width="600" height="70" rx="8" fill="#f2f3f5" stroke="#999"/>
+  <text x="360" y="348" text-anchor="middle" font-size="13" fill="#444">口诀：半透明 = 没抠干净；绿幕上留记号方便跟踪</text>
+  <text x="360" y="370" text-anchor="middle" font-size="13" fill="#444">擦钢丝用 CC Simple Wire Removal：两个点放钢丝两边，调 Thickness（实拍穿帮才用）</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="380" viewBox="0 0 1080 380" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+  <rect width="1080" height="380" fill="#fafafa"/>
+  <text x="540" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">人声频段速查（配音/口播 EQ 参考）</text>
+
+  <!-- axis -->
+  <line x1="60" y1="300" x2="1030" y2="300" stroke="#333" stroke-width="2"/>
+  <g font-size="12" fill="#555" text-anchor="middle">
+    <text x="110" y="322">60Hz</text>
+    <text x="230" y="322">250Hz</text>
+    <text x="380" y="322">500Hz</text>
+    <text x="560" y="322">1kHz</text>
+    <text x="720" y="322">2kHz</text>
+    <text x="860" y="322">6kHz</text>
+    <text x="980" y="322">16kHz</text>
+  </g>
+
+  <!-- bands -->
+  <g font-size="13" text-anchor="middle">
+    <rect x="60" y="210" width="140" height="90" fill="#c9d7ea"/>
+    <text x="130" y="245" fill="#222">低频</text>
+    <text x="130" y="265" font-size="11" fill="#444">胸腔共鸣</text>
+    <text x="130" y="283" font-size="11" fill="#444">浑浊处衰减</text>
+
+    <rect x="200" y="190" width="170" height="110" fill="#b7cbe6"/>
+    <text x="285" y="225" fill="#222">低中频</text>
+    <text x="285" y="245" font-size="11" fill="#444">鼻音/闷感</text>
+    <text x="285" y="263" font-size="11" fill="#444">过多则糊</text>
+
+    <rect x="370" y="220" width="190" height="80" fill="#a8c4e0"/>
+    <text x="465" y="252" fill="#222">中频</text>
+    <text x="465" y="272" font-size="11" fill="#444">人声主体厚度</text>
+
+    <rect x="560" y="150" width="180" height="150" fill="#8fb3d9"/>
+    <text x="650" y="185" fill="#fff">中高频（ presence ）</text>
+    <text x="650" y="207" font-size="11" fill="#fff">1.5–4kHz 清晰度</text>
+    <text x="650" y="225" font-size="11" fill="#fff">咬字、贴耳感</text>
+
+    <rect x="740" y="180" width="130" height="120" fill="#7ba6cf"/>
+    <text x="805" y="215" fill="#fff">高频</text>
+    <text x="805" y="235" font-size="11" fill="#fff">齿音 5–8kHz</text>
+    <text x="805" y="253" font-size="11" fill="#fff">过则刺耳→降</text>
+
+    <rect x="870" y="230" width="150" height="70" fill="#aac3dd"/>
+    <text x="945" y="258" fill="#222">空气感</text>
+    <text x="945" y="278" font-size="11" fill="#444">10kHz 以上微亮</text>
+  </g>
+
+  <text x="60" y="60" font-size="14" fill="#333">经验法则：</text>
+  <g font-size="13" fill="#444">
+    <text x="60" y="86">· 男声基频约 85–180Hz，女声约 165–255Hz——人声厚度主要由这一段决定</text>
+    <text x="60" y="110">· 声音远/闷：抬 2–4kHz；声音刺耳：压 5–8kHz 齿音段</text>
+    <text x="60" y="134">· 口播 EQ 三件事：先切低频隆隆声（80Hz 以下高通），再去 200–400Hz 闷感，最后轻抬 3kHz 提清晰</text>
+  </g>
+</svg>

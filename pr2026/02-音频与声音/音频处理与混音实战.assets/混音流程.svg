@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="360" viewBox="0 0 1080 360" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+  <rect width="1080" height="360" fill="#fafafa"/>
+  <text x="540" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">视频混音链：从分轨到总线输出</text>
+
+  <!-- row 1: tracks -->
+  <g font-size="14" fill="#fff">
+    <rect x="30" y="70" width="150" height="44" rx="6" fill="#3b6ea5"/>
+    <text x="105" y="97" text-anchor="middle">人声/旁白轨</text>
+    <rect x="30" y="126" width="150" height="44" rx="6" fill="#4a8f6b"/>
+    <text x="105" y="153" text-anchor="middle">BGM 音乐轨</text>
+    <rect x="30" y="182" width="150" height="44" rx="6" fill="#b0762a"/>
+    <text x="105" y="209" text-anchor="middle">音效轨</text>
+    <rect x="30" y="238" width="150" height="44" rx="6" fill="#7a6a9a"/>
+    <text x="105" y="265" text-anchor="middle">环境底噪轨</text>
+  </g>
+
+  <!-- processing chain per voice track -->
+  <g font-size="13" fill="#222">
+    <rect x="220" y="70" width="130" height="44" rx="6" fill="#e8eef5" stroke="#3b6ea5"/>
+    <text x="285" y="90" text-anchor="middle">降噪</text>
+    <text x="285" y="106" text-anchor="middle" font-size="11" fill="#666">捕捉噪声样本</text>
+    <rect x="370" y="70" width="130" height="44" rx="6" fill="#e8eef5" stroke="#3b6ea5"/>
+    <text x="435" y="90" text-anchor="middle">Enhance Speech</text>
+    <text x="435" y="106" text-anchor="middle" font-size="11" fill="#666">免费·本地 AI</text>
+    <rect x="520" y="70" width="130" height="44" rx="6" fill="#e8eef5" stroke="#3b6ea5"/>
+    <text x="585" y="90" text-anchor="middle">EQ 均衡</text>
+    <text x="585" y="106" text-anchor="middle" font-size="11" fill="#666">去齿音 / 提升清晰度</text>
+    <rect x="670" y="70" width="130" height="44" rx="6" fill="#e8eef5" stroke="#3b6ea5"/>
+    <text x="735" y="90" text-anchor="middle">压缩器</text>
+    <text x="735" y="106" text-anchor="middle" font-size="11" fill="#666">压动态、贴耳</text>
+  </g>
+
+  <!-- ducking for music -->
+  <g font-size="13" fill="#222">
+    <rect x="220" y="126" width="220" height="44" rx="6" fill="#e9f3ec" stroke="#4a8f6b"/>
+    <text x="330" y="146" text-anchor="middle">自动闪避 Ducking（免费 AI）</text>
+    <text x="330" y="162" text-anchor="middle" font-size="11" fill="#666">人声一出，BGM 自动压低约 15–20 dB</text>
+  </g>
+
+  <!-- arrows to bus -->
+  <g stroke="#999" stroke-width="2" fill="none">
+    <path d="M800 92 L860 92 L860 170 L880 170"/>
+    <path d="M440 170 L880 170"/>
+    <path d="M180 204 L860 204 L860 170"/>
+    <path d="M180 260 L850 260 L850 176"/>
+  </g>
+
+  <!-- mix bus -->
+  <g font-size="14">
+    <rect x="880" y="130" width="170" height="80" rx="8" fill="#333"/>
+    <text x="965" y="162" text-anchor="middle" fill="#fff" font-weight="bold">混合总线</text>
+    <text x="965" y="184" text-anchor="middle" fill="#fff" font-size="12">总线压缩 → 限制器</text>
+    <text x="965" y="202" text-anchor="middle" fill="#fff" font-size="12">响度表校准</text>
+  </g>
+
+  <!-- output -->
+  <g font-size="14">
+    <rect x="380" y="290" width="320" height="46" rx="8" fill="#b03a3a"/>
+    <text x="540" y="319" text-anchor="middle" fill="#fff" font-weight="bold">网络成片：-14 LUFS · 真峰值 ≤ -1 dBTP</text>
+    <path d="M965 210 L965 260 L540 260 L540 290" stroke="#999" stroke-width="2" fill="none"/>
+  </g>
+</svg>

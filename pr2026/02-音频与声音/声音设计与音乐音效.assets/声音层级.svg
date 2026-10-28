@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+  <rect width="900" height="480" fill="#fafafa"/>
+  <text x="450" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">声音设计层级金字塔：越往上越靠前</text>
+
+  <!-- pyramid layers -->
+  <g font-size="15" text-anchor="middle">
+    <polygon points="450,80 380,150 520,150" fill="#c0392b"/>
+    <text x="450" y="128" fill="#fff" font-weight="bold">人声 / 旁白</text>
+
+    <polygon points="380,150 520,150 565,225 335,225" fill="#e67e22"/>
+    <text x="450" y="195" fill="#fff" font-weight="bold">关键音效（提示/转场/Hit）</text>
+
+    <polygon points="335,225 565,225 615,300 285,300" fill="#2980b9"/>
+    <text x="450" y="268" fill="#fff" font-weight="bold">BGM 音乐（情绪）</text>
+
+    <polygon points="285,300 615,300 660,380 240,380" fill="#27ae60"/>
+    <text x="450" y="348" fill="#fff" font-weight="bold">环境音效（动作/环境真实感）</text>
+
+    <polygon points="240,380 660,380 700,445 200,445" fill="#7f8c8d"/>
+    <text x="450" y="420" fill="#fff" font-weight="bold">环境底噪 / 白噪音（氛围地基）</text>
+  </g>
+
+  <!-- right notes -->
+  <g font-size="13" fill="#333">
+    <text x="720" y="110">优先级：人声永远第一</text>
+    <text x="720" y="136">· BGM 低于人声 15–20 dB</text>
+    <text x="720" y="162">· 旁白一响，BGM 自动闪避</text>
+    <text x="720" y="188">· 底噪要"铺"不要"听"</text>
+    <text x="720" y="214">· 音效只打在关键点上</text>
+    <text x="720" y="240">（花字、转场、重拍）</text>
+  </g>
+</svg>

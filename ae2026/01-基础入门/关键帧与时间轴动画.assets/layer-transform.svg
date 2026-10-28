@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="760" height="460" fill="#faf8f3"/>
+  <text x="380" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">图层「变换」属性树（时间轴展开示意）</text>
+
+  <!-- 图层行 -->
+  <rect x="30" y="55" width="700" height="34" fill="#e8e2d5" stroke="#8a7f66"/>
+  <text x="45" y="77" font-size="13" font-weight="bold" fill="#333">素材图层：logo.png</text>
+  <text x="600" y="77" font-size="12" fill="#666">▶ 变换（按小三角展开）</text>
+
+  <!-- 变换子项 -->
+  <g font-size="13" fill="#333">
+    <rect x="60" y="100" width="670" height="30" fill="#fff" stroke="#bbb"/>
+    <text x="75" y="120">⌂ 锚点 Anchor Point</text><text x="330" y="120" fill="#c0392b" font-weight="bold">快捷键 A</text><text x="430" y="120" fill="#666">旋转中心；用锚点工具(Y)+Ctrl 拖</text>
+
+    <rect x="60" y="135" width="670" height="30" fill="#fff" stroke="#bbb"/>
+    <text x="75" y="155">✥ 位置 Position</text><text x="330" y="155" fill="#c0392b" font-weight="bold">快捷键 P</text><text x="430" y="155" fill="#666">图层在画面中的 XY 坐标</text>
+
+    <rect x="60" y="170" width="670" height="30" fill="#fff" stroke="#bbb"/>
+    <text x="75" y="190">⤢ 缩放 Scale</text><text x="330" y="190" fill="#c0392b" font-weight="bold">快捷键 S</text><text x="430" y="190" fill="#666">等比缩放；按住 Shift 再调可不等比</text>
+
+    <rect x="60" y="205" width="670" height="30" fill="#fff" stroke="#bbb"/>
+    <text x="75" y="225">↻ 旋转 Rotation</text><text x="330" y="225" fill="#c0392b" font-weight="bold">快捷键 R</text><text x="430" y="225" fill="#666">圈数 + 角度</text>
+
+    <rect x="60" y="240" width="670" height="30" fill="#fff" stroke="#bbb"/>
+    <text x="75" y="260">◐ 不透明度 Opacity</text><text x="330" y="260" fill="#c0392b" font-weight="bold">快捷键 T</text><text x="430" y="260" fill="#666">淡入淡出就靠它；默认 100%</text>
+  </g>
+
+  <rect x="30" y="290" width="700" height="80" fill="#f5f2ea" stroke="#8a7f66"/>
+  <text x="45" y="313" font-size="13" fill="#333">口诀：</text>
+  <text x="45" y="335" font-size="13" fill="#333">P 位置、S 缩放、R 旋转、T 不透明度、A 锚点 —— 选中图层按对应字母，自动展开并高亮该属性。</text>
+  <text x="45" y="357" font-size="13" fill="#333">想同时显示多个属性：按住 Shift 再按另一个字母，叠加显示。</text>
+
+  <rect x="30" y="385" width="700" height="60" fill="#eaf3ea" stroke="#7a9a7a"/>
+  <text x="45" y="408" font-size="13" fill="#2d5a2d">关键帧小码表 ◇：点一下=在当前时间点打第一个关键帧；改时间再改数值=自动补第二个关键帧。</text>
+  <text x="45" y="430" font-size="13" fill="#2d5a2d">再点一次小码表 = 删除该属性全部关键帧（动画作废）。</text>
+</svg>

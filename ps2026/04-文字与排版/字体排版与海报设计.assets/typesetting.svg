@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 250" font-family="Kaiti SC, KaiTi, STKaiti, cursive, sans-serif">
+  <rect width="640" height="250" fill="#fdfcf7"/>
+  <text x="320" y="26" text-anchor="middle" font-size="16" font-weight="bold">排版三法宝</text>
+  <!-- size contrast -->
+  <text x="90" y="110" font-size="40" font-weight="bold">大</text>
+  <text x="150" y="110" font-size="20">小</text>
+  <text x="185" y="110" font-size="12">正文</text>
+  <text x="140" y="150" text-anchor="middle" font-size="12">① 大小对比：加倍减半</text>
+  <!-- leading -->
+  <text x="300" y="80" font-size="13">行间距 1.5~2 倍</text>
+  <text x="300" y="105" font-size="13">上一行文字基线</text>
+  <text x="300" y="130" font-size="13">下一行文字基线</text>
+  <line x1="295" y1="108" x2="295" y2="127" stroke="#bb5544" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="360" y="150" text-anchor="middle" font-size="12">② 间距：行距 1.5~2 倍</text>
+  <!-- alignment -->
+  <rect x="470" y="60" width="130" height="70" fill="none" stroke="#999"/>
+  <line x1="480" y1="75" x2="590" y2="75" stroke="#333" stroke-width="2"/>
+  <line x1="480" y1="92" x2="570" y2="92" stroke="#333" stroke-width="2"/>
+  <line x1="480" y1="109" x2="590" y2="109" stroke="#333" stroke-width="2"/>
+  <line x1="480" y1="126" x2="555" y2="126" stroke="#333" stroke-width="2"/>
+  <text x="535" y="150" text-anchor="middle" font-size="12">③ 对齐：左对齐基线统一</text>
+  <text x="320" y="200" text-anchor="middle" font-size="13" fill="#555">铁律：全片字体 ≤3 种、颜色 ≤3 种</text>
+  <defs><marker id="ar" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#bb5544"/></marker></defs>
+</svg>

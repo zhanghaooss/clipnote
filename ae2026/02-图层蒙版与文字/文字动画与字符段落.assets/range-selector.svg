@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="760" height="360" fill="#faf8f3"/>
+  <text x="380" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">范围选择器：逐字动画的“传送带”</text>
+
+  <!-- 文字串 -->
+  <g font-size="26" font-family="serif">
+    <text x="80" y="120" fill="#bbb">春</text>
+    <text x="140" y="120" fill="#bbb">夏</text>
+    <text x="200" y="120" fill="#bbb">秋</text>
+    <text x="260" y="120" fill="#c0392b">冬</text>
+    <text x="320" y="120" fill="#c0392b">来</text>
+    <text x="380" y="120" fill="#bbb">了</text>
+  </g>
+  <rect x="252" y="95" width="150" height="45" fill="none" stroke="#c0392b" stroke-dasharray="5,3"/>
+  <text x="327" y="160" text-anchor="middle" font-size="12" fill="#c0392b">← 范围选择器“开始/结束”框住的字符范围 →</text>
+
+  <!-- 参数说明 -->
+  <rect x="60" y="190" width="640" height="140" fill="#f5f2ea" stroke="#8a7f66"/>
+  <text x="75" y="215" font-size="13" fill="#333">给文本层加「动画制作工具 → 不透明度/字符位移/模糊」后：</text>
+  <text x="75" y="238" font-size="13" fill="#333">· 范围选择器 = 传送带：K 帧「开始/结束」数值，红色框从左扫到右，</text>
+  <text x="90" y="260" font-size="13" fill="#333">  所过字符依次应用动画（依次变色、依次跳、依次模糊）。</text>
+  <text x="75" y="283" font-size="13" fill="#333">· 高级 → 随机插入（Randomize）：字符随机乱序动画。</text>
+  <text x="75" y="306" font-size="13" fill="#333">· 「逐字 3D」开关：每个字变成独立 3D 层，可进三维空间。</text>
+</svg>

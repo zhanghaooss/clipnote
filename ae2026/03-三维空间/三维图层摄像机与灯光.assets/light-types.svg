@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 380" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="820" height="380" fill="#faf8f3"/>
+  <text x="410" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">四种灯光类型示意</text>
+
+  <!-- 聚光 -->
+  <rect x="30" y="55" width="180" height="200" fill="#fff" stroke="#8a7f66"/>
+  <text x="120" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">聚光 Spot</text>
+  <polygon points="120,95 70,220 170,220" fill="#ffe9a8" fill-opacity="0.7"/>
+  <circle cx="120" cy="95" r="8" fill="#f4b400"/>
+  <text x="120" y="245" text-anchor="middle" font-size="11" fill="#666">手电筒：锥形光域</text>
+
+  <!-- 平行 -->
+  <rect x="225" y="55" width="180" height="200" fill="#fff" stroke="#8a7f66"/>
+  <text x="315" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">平行 Parallel</text>
+  <line x1="260" y1="95" x2="260" y2="225" stroke="#f4b400" stroke-width="2"/>
+  <line x1="315" y1="95" x2="315" y2="225" stroke="#f4b400" stroke-width="2"/>
+  <line x1="370" y1="95" x2="370" y2="225" stroke="#f4b400" stroke-width="2"/>
+  <text x="315" y="245" text-anchor="middle" font-size="11" fill="#666">太阳光：平行光、投影硬</text>
+
+  <!-- 点光 -->
+  <rect x="420" y="55" width="180" height="200" fill="#fff" stroke="#8a7f66"/>
+  <text x="510" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">点光 Point</text>
+  <circle cx="510" cy="150" r="12" fill="#f4b400"/>
+  <circle cx="510" cy="150" r="55" fill="#ffe9a8" fill-opacity="0.5"/>
+  <text x="510" y="245" text-anchor="middle" font-size="11" fill="#666">灯泡：向四周发散</text>
+
+  <!-- 环境 -->
+  <rect x="615" y="55" width="180" height="200" fill="#fff" stroke="#8a7f66"/>
+  <text x="705" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">环境 Ambient</text>
+  <rect x="640" y="110" width="130" height="90" fill="#c9dcf5"/>
+  <text x="705" y="245" text-anchor="middle" font-size="11" fill="#666">整体补光、不投影</text>
+
+  <rect x="30" y="275" width="765" height="90" fill="#f5f2ea" stroke="#8a7f66"/>
+  <text x="45" y="300" font-size="12.5" fill="#333">投影三件套：① 灯光选项里开「投影」；② 投射阴影的图层 → 材质选项 → 投影打开；</text>
+  <text x="45" y="322" font-size="12.5" fill="#333">③ 接收阴影的地面层 → 材质选项 → 接受阴影打开。衰减（半径/衰减距离）新手不常用。</text>
+  <text x="45" y="344" font-size="12.5" fill="#c0392b">笔记提醒：投影容易让工程变卡；不需要投影的层记得把「接受灯光」关掉。</text>
+</svg>

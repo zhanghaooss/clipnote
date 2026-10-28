@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="280" viewBox="0 0 880 280" font-family="Noto Sans CJK SC, sans-serif">
+  <rect width="880" height="280" fill="#faf8f4"/>
+  <text x="440" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">库里肖夫效应：同一个镜头 + 不同镜头 = 第三种含义（1+1=3）</text>
+  <!-- same face -->
+  <g>
+    <rect x="340" y="70" width="120" height="100" rx="4" fill="#e8e2d5" stroke="#8a7a68" stroke-width="1.5"/>
+    <circle cx="400" cy="110" r="26" fill="#d9b89c"/>
+    <circle cx="392" cy="106" r="2.5" fill="#333"/><circle cx="408" cy="106" r="2.5" fill="#333"/>
+    <text x="400" y="195" text-anchor="middle" font-size="13" fill="#333">同一张男人的脸（无表情）</text>
+  </g>
+  <!-- branch up: baby -->
+  <g>
+    <line x1="400" y1="70" x2="200" y2="55" stroke="#8a7a68" stroke-width="1.2"/>
+    <rect x="120" y="40" width="120" height="70" rx="4" fill="#dce8d5" stroke="#6a8a5c" stroke-width="1.5"/>
+    <circle cx="180" cy="70" r="18" fill="#f0d8c8"/>
+    <text x="180" y="135" text-anchor="middle" font-size="12" fill="#3d6a3c">+ 一张婴儿的脸</text>
+    <text x="180" y="155" text-anchor="middle" font-size="13" fill="#3d6a3c" font-weight="bold">→ 慈祥的父亲</text>
+  </g>
+  <!-- branch down: corpse -->
+  <g>
+    <line x1="400" y1="170" x2="200" y2="200" stroke="#8a7a68" stroke-width="1.2"/>
+    <rect x="120" y="180" width="120" height="70" rx="4" fill="#e0d5e8" stroke="#7a5c8a" stroke-width="1.5"/>
+    <ellipse cx="180" cy="215" rx="26" ry="12" fill="#c8b8d0"/>
+    <text x="180" y="265" text-anchor="middle" font-size="12" fill="#5a3c6a">+ 一具女尸</text>
+    <text x="320" y="265" text-anchor="middle" font-size="13" fill="#5a3c6a" font-weight="bold">→ 贪婪</text>
+  </g>
+  <!-- right note -->
+  <g>
+    <rect x="560" y="90" width="280" height="120" rx="6" fill="#fff" stroke="#c0392b" stroke-width="1.5"/>
+    <text x="700" y="118" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">观众产生自己的联想</text>
+    <text x="700" y="145" text-anchor="middle" font-size="12" fill="#555">除小镜头本身的信息外，</text>
+    <text x="700" y="165" text-anchor="middle" font-size="12" fill="#555">两个镜头并置会生成</text>
+    <text x="700" y="185" text-anchor="middle" font-size="12" fill="#555">单个镜头里没有的第三种含义</text>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect width="760" height="380" fill="#faf8f3"/>
+  <text x="380" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">蒙版算法：两个蒙版叠加时谁显谁隐</text>
+
+  <!-- 相加 -->
+  <rect x="40" y="60" width="200" height="150" fill="#fff" stroke="#8a7f66"/>
+  <text x="140" y="82" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">相加（默认）</text>
+  <circle cx="110" cy="140" r="40" fill="#9fc5e8"/>
+  <circle cx="160" cy="140" r="40" fill="#f6b26b" fill-opacity="0.85"/>
+  <text x="140" y="200" text-anchor="middle" font-size="11" fill="#666">两个圈内都显示，并集</text>
+
+  <!-- 相减 -->
+  <rect x="280" y="60" width="200" height="150" fill="#fff" stroke="#8a7f66"/>
+  <text x="380" y="82" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">相减（Subtract）</text>
+  <circle cx="350" cy="140" r="40" fill="#9fc5e8"/>
+  <circle cx="400" cy="140" r="40" fill="#fff" stroke="#bbb" stroke-dasharray="4,3"/>
+  <text x="380" y="200" text-anchor="middle" font-size="11" fill="#666">上面的圈挖掉下面，露出透明</text>
+
+  <!-- 交集 -->
+  <rect x="520" y="60" width="200" height="150" fill="#fff" stroke="#8a7f66"/>
+  <text x="620" y="82" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">交集（Intersect）</text>
+  <circle cx="590" cy="140" r="40" fill="#fff" stroke="#bbb" stroke-dasharray="4,3"/>
+  <circle cx="640" cy="140" r="40" fill="#fff" stroke="#bbb" stroke-dasharray="4,3"/>
+  <path d="M612 112 a40 40 0 0 1 0 56 a40 40 0 0 1 0 -56" fill="#9fc5e8"/>
+  <text x="620" y="200" text-anchor="middle" font-size="11" fill="#666">只保留两个圈重叠的区域</text>
+
+  <rect x="40" y="240" width="680" height="110" fill="#f5f2ea" stroke="#8a7f66"/>
+  <text x="55" y="265" font-size="13" fill="#333">其他算法（时间轴蒙版旁的下拉菜单）：</text>
+  <text x="55" y="288" font-size="12" fill="#444">· 无（None）：蒙版路径只当形状用，不抠图——最常用在「钢笔描路径后给效果/粒子识别」的场景</text>
+  <text x="55" y="310" font-size="12" fill="#444">· 变亮/变暗/差值：多个蒙版做布尔运算，新手少用</text>
+  <text x="55" y="332" font-size="12" fill="#444">每个蒙版还能调：羽化（f）、不透明度、扩展（收缩/外扩边缘）</text>
+</svg>
